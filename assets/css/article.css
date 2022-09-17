@@ -7,17 +7,19 @@ img {
 
 /* ---------------------------------------------- blog-main__icons styles ----------------------------------------------*/
 
-.blog-main__hr {
+.blog-main__hr>hr {
     margin: 20px 32%;
     background-color: rgb(0, 0, 0);
     height: 5px;
-    border-width: -1px;
+    border-color: #000;
 }
 
 .blog-main-center__article-header {
     display: flex;
     align-content: stretch;
     align-items: center;
+    line-height: 160%;
+    margin-left: 20%;
 }
 
 .blog-main__article-header-logo {
@@ -28,6 +30,7 @@ img {
 .blog-main__article-header-cont {
     font-family: 'SF Pro Text', sans-serif;
     font-size: 16px;
+    margin-right: 30%;
 }
 
 .blog-main__article-header-cont>b {
@@ -69,17 +72,18 @@ img {
 .article-text__gallery-text>h1 {
     font-family: 'SF Pro Display', sans-serif;
     font-weight: bold;
-    justify-content: flex-start;
+    justify-content: center;
     font-size: 32;
 }
 
 .article-text__foto-mini {
-    display: flex;
+    object-fit: cover;
+    /* display: flex;
     text-align: center;
     justify-content: center;
     padding-right: 20%;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle;*/
 }
 
 figcaption {
@@ -93,9 +97,53 @@ figcaption {
 }
 
 .article-text__footer {
-    border: 1px solid #000;
+    /*border: 1px solid #000;
     display: flex;
+    text-align: center;*/
+}
+
+.footer-buttons {
+    display: flex;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+}
+
+.footer-buttons__facebook>img {
+    padding-right: 10px;
+}
+
+.footer-buttons__twitter>img {
+    padding-right: 10px;
+}
+
+.footer-buttons__facebook:hover,
+.footer-buttons__twitter:hover {
+    color: blue;
+}
+
+.footer-buttons>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 1px 80px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'FontsFree-Net-SFProText-Medium', serif;
+    color: #000;
+    text-decoration: none;
     text-align: center;
+    border-left: 1px solid #e8e8e8;
+}
+
+.footer-buttons__facebook,
+.footer-buttons__twitter {
+    text-align: center;
+}
+
+.footer-buttons__facebook {
+    padding-right: 100px;
 }
 
 .article-text__hr-dotted {
@@ -192,6 +240,7 @@ figcaption {
     flex-direction: column;
     text-align: center;
     margin: 5% 32%;
+    border-top: 8px solid black;
 }
 
 .newsletter__text>h3 {
@@ -220,10 +269,6 @@ figcaption {
     font-family: 'FontsFree-Net-SFProText-Medium';
     font-weight: 400;
     padding: 2% 6%;
-}
-
-.newsletter:hover {
-    border-top: 8px solid black;
 }
 
 .newsletter__registration>button {
