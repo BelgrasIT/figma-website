@@ -8,10 +8,10 @@ img {
 /* ---------------------------------------------- blog-main__icons styles ----------------------------------------------*/
 
 .blog-main__hr {
-    margin: 20px 20%;
-    background-color: black;
-    height: 4px;
-    border: #000;
+    margin: 20px 32%;
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+    border-width: -1px;
 }
 
 .blog-main-center__article-header {
@@ -195,7 +195,6 @@ figcaption {
 }
 
 .newsletter__text>h3 {
-    border-top: 5px solid black;
     font-size: 36px;
     font-family: 'New York Extra Large';
     font-weight: bold;
@@ -221,6 +220,10 @@ figcaption {
     font-family: 'FontsFree-Net-SFProText-Medium';
     font-weight: 400;
     padding: 2% 6%;
+}
+
+.newsletter:hover {
+    border-top: 8px solid black;
 }
 
 .newsletter__registration>button {
