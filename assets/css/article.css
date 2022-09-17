@@ -1,0 +1,230 @@
+/* ---------------------------------------------- global styles ----------------------------------------------*/
+
+img {
+    margin: 0;
+}
+
+
+/* ---------------------------------------------- blog-main__icons styles ----------------------------------------------*/
+
+.blog-main__hr {
+    margin: 20px 20%;
+    background-color: black;
+    height: 4px;
+    border: #000;
+}
+
+.blog-main-center__article-header {
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+}
+
+.blog-main__article-header-logo {
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.blog-main__article-header-cont {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 16px;
+}
+
+.blog-main__article-header-cont>b {
+    letter-spacing: 1px;
+}
+
+.blog-main__button-facebook {
+    display: flex;
+    border: 1px double rgba(128, 128, 128, 0.322);
+    background: rgb(255, 255, 255);
+    padding: 8px 25px 5px;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.blog-main__button-twitter {
+    display: flex;
+    border: 1px double rgba(128, 128, 128, 0.322);
+    background: rgb(255, 255, 255);
+    padding: 8px 25px 5px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.article-text__gallery-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 20%;
+}
+
+.article-text__gallery-text>p {
+    line-height: 180%;
+    font-family: 'New York Medium', sans-serif;
+    font-weight: 'Regular';
+    font-size: 20px;
+}
+
+.article-text__gallery-text>h1 {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: bold;
+    justify-content: flex-start;
+    font-size: 32;
+}
+
+.article-text__foto-mini {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-right: 20%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+figcaption {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.article-text__list {
+    font-size: 20px;
+    list-style-type: disc;
+}
+
+.article-text__footer {
+    border: 1px solid #000;
+    display: flex;
+    text-align: center;
+}
+
+.article-text__hr-dotted {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dotted #ddd;
+}
+
+
+/* ---------------------------------------------- title styles ----------------------------------------------*/
+
+.title {
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 3px;
+    background-color: #000000;
+}
+
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.blog-main__icons {
+    margin: -2% 0;
+    padding: -20%;
+}
+
+.other-articles__read-next {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: -2% 5%;
+}
+
+.read-next__icons {
+    text-align: center;
+}
+
+.read-next__icons>a {
+    text-decoration: none;
+}
+
+.read-next__img {
+    width: 304px;
+    height: 176px;
+    object-fit: cover;
+}
+
+.read-next__img:hover {
+    border-radius: 10px;
+    border-color: #333;
+    box-shadow: 5px 5px 5px black;
+}
+
+.read-next__heading {
+    font-size: 22px;
+    font-family: 'Segoe Pro Display', sans-serif;
+    font-weight: medium;
+    text-align: center;
+    color: black;
+    padding: 0 9%;
+}
+
+.read-next__heading:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    border: 1px solid black;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    text-align: center;
+    margin: 5% 32%;
+}
+
+.newsletter__text>h3 {
+    border-top: 5px solid black;
+    font-size: 36px;
+    font-family: 'New York Extra Large';
+    font-weight: bold;
+    padding: 0 5%;
+}
+
+.newsletter__text>p {
+    font-size: 20px;
+    font-family: 'FontsFree-Net-SFProText-Medium';
+    font-weight: 100;
+    padding: 0 10%;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.newsletter__registration {
+    padding-bottom: 5%;
+}
+
+.newsletter__registration>input,
+.newsletter__registration>button {
+    font-size: 20px;
+    font-family: 'FontsFree-Net-SFProText-Medium';
+    font-weight: 400;
+    padding: 2% 6%;
+}
+
+.newsletter__registration>button {
+    color: white;
+    background-color: #000;
+    margin-left: -5px;
+}

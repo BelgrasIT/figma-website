@@ -1,0 +1,99 @@
+/* ---------------------------------------------- header styles ----------------------------------------------*/
+
+.header-read-me {
+    background-color: #FFD900;
+}
+
+.header-read-me__version {
+    margin-left: 10%;
+    padding-top: 2%;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: -200px;
+}
+
+.header-read-me__logo {
+    font-family: 'New York Extra Large';
+    font-size: 200px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-bottom: -100px;
+}
+
+
+/* ---------------------------------------------- main styles ----------------------------------------------*/
+
+.main-read-me {
+    margin: 10% 40% 0px 10%;
+    padding-bottom: 10%;
+}
+
+.main-read-me__text {
+    font-weight: bold;
+    font-family: 'New York Extra Large';
+}
+
+.main-read-me__text>h2 {
+    font-weight: bold;
+    font-family: 'New York Extra Large';
+    font-size: 44px;
+}
+
+.main-read-me__vl-1 {
+    margin-bottom: 80px;
+    border-left: 6px solid black;
+    height: 4%
+}
+
+.main-read-me__vl-2 {
+    margin-bottom: 80px;
+    border-left: 6px solid black;
+    height: 3%;
+}
+
+.main-read-me__vl-3 {
+    margin-bottom: 80px;
+    border-left: 6px solid black;
+    height: 15%;
+}
+
+.main-read-me__vl-1>p,
+.main-read-me__vl-2>p,
+.main-read-me__vl-3>p {
+    margin: 0 15% 0 2%;
+    font-family: 'FontsFree-Net-SFProText-Medium';
+}
+
+.main-read-me__vl-3>h2 {
+    margin: 0 15% 0 2%;
+}
+
+.main-read-me__font-1 {
+    font-family: 'Chapter-Regular', sans-serif;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.main-read-me__font-2 {
+    font-family: 'Mackay Bold', sans-serif;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.main-read-me__font-3 {
+    font-family: 'Harriet Text Light', sans-serif;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.main-read-me__font-4 {
+    font-family: 'FontsFree-Net-BasisGrotesquePro-Regular', sans-serif;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.main-read-me__font-5 {
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    padding-bottom: 15px;
+    font-size: 50px;
+}

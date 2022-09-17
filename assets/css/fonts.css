@@ -1,0 +1,51 @@
+@import url('http://fonts.cdnfonts.com/css/kappa-display');
+@import url('http://fonts.cdnfonts.com/css/newplatinum');
+@import url('http://fonts.cdnfonts.com/css/asket-condensed');
+@import url('http://fonts.cdnfonts.com/css/harriet-display-medium');
+@import url('http://fonts.cdnfonts.com/css/harmony-3');
+@import url('http://fonts.cdnfonts.com/css/sregs-serif-display');
+@import url('');
+@import url('http://fonts.cdnfonts.com/css/segoe-pro');
+@import url('http://fonts.cdnfonts.com/css/sf-mono');
+@import url('http://fonts.cdnfonts.com/css/nokia-cellphone-fc');
+@font-face {
+    font-family: 'Chapter-Regular';
+    src: url('./../fonts/Chapter-Regular.woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New York Extra Large';
+    src: url('./../fonts/FontsFree-Net-NewYorkExtraLargeRegular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FontsFree-Net-SFProText-Medium';
+    src: url('./../fonts/FontsFree-Net-SFProText-Medium.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FontsFree-Net-BasisGrotesquePro-Regular';
+    src: url('./../fonts/FontsFree-Net-BasisGrotesquePro-Regular.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mackay Bold';
+    src: url('./../fonts/Mackay-Bold.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New York Small';
+    src: url('./../fonts/FontsFree-Net-NewYorkSmallMedium.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New York Medium';
+    src: url('./../fonts/FontsFree-Net-NewYorkLargeMedium.ttf');
+    font-display: swap;
+}
