@@ -310,16 +310,16 @@ figcaption {
     }
     .blog-main__article-header-cont {
         float: left;
-        margin-right: 15px;
+        margin-right: 15%;
     }
     .blog-main__icons>h6 {
         padding: 0 5%;
         margin: -1% 0;
     }
     .article-text__foto-mini {
-        width: auto;
-        height: 250px;
         margin: 0;
+        width: auto;
+        height: 400px;
     }
     .article-text__gallery-text {
         padding: 0 15px;
