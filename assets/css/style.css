@@ -146,7 +146,7 @@
         font-size: 54px;
         font-weight: bold;
         text-align: center;
-        margin: 1% 17% 2% 17%;
+        margin: 1% 17% 4% 17%;
     }
     
     .blog-main__icons>h5 {
@@ -172,22 +172,18 @@
     
     .all-articles__icons {
         text-align: center;
+        text-decoration: none;
     }
     
-    .all-articles__icons>a {
-        text-decoration: none;
+    .all-articles__icons:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+        text-decoration: underline rgb(0, 0, 0);
     }
     
     .all-articles__img {
         width: 304px;
         height: 176px;
         object-fit: cover;
-    }
-    
-    .all-articles__img:hover {
-        border-radius: 10px;
-        border-color: #333;
-        box-shadow: 5px 5px 5px black;
     }
     
     .all-articles__heading {
@@ -197,10 +193,6 @@
         text-align: center;
         color: black;
         padding: 0 9%;
-    }
-    
-    .all-articles__heading:hover {
-        text-decoration: underline;
     }
     /* ---------------------------------------------- footer styles ----------------------------------------------*/
     
