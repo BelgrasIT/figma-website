@@ -169,16 +169,17 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         margin: 0 21%;
+        color: #000;
     }
     
     .all-articles__icons {
-        text-align: center;
         text-decoration: none;
     }
     
-    .all-articles__icons:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
-        text-decoration: underline rgb(0, 0, 0);
+    .all-articles__img:hover,
+    .all-articles__heading:hover {
+        transform: scale(1.005);
+        color: rgb(1, 165, 28);
     }
     
     .all-articles__img {
@@ -187,16 +188,11 @@
         object-fit: cover;
     }
     
-    .all-articles__img:hover {
-        transform: scale(1.005);
-    }
-    
     .all-articles__heading {
-        font-size: 22px;
-        font-family: 'Segoe Pro Display', sans-serif;
-        font-weight: medium;
         text-align: center;
-        color: black;
+        color: #000;
+        font-size: 22px;
+        font-family: 'SF Pro Display';
         padding: 0 9%;
     }
     /* ---------------------------------------------- footer styles ----------------------------------------------*/

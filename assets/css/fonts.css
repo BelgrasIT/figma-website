@@ -54,3 +54,9 @@
     src: url('./../fonts/FontsFree-Net-SFMono-Light.ttf');
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./../fonts/FontsFree-Net-SFProDisplay-Medium.ttf');
+    font-display: swap;
+}
