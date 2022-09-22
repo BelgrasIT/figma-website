@@ -70,7 +70,7 @@ img {
 .article-text__gallery-text>p {
     line-height: 180%;
     font-family: 'New York Medium', sans-serif;
-    font-weight: 'Regular';
+    font-weight: 100;
     font-size: 20px;
 }
 
@@ -114,7 +114,14 @@ figcaption {
 
 .article-text__list {
     font-size: 20px;
-    list-style-type: disc;
+    font-family: 'New York Medium';
+    line-height: 160%;
+}
+
+.article-text__list>ul {
+    list-style-type: square;
+    /*"♦️"*/
+    margin-left: -3%;
 }
 
 .footer-buttons {
@@ -124,23 +131,19 @@ figcaption {
     border-radius: 4px;
 }
 
-.footer-buttons__facebook>img {
-    padding-right: 10px;
+.img-svg {
+    margin-right: 10px;
 }
 
 .footer-buttons__twitter>img {
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
-.footer-buttons__facebook:hover,
-.footer-buttons__twitter:hover {
-    color: blue;
-    border: 2px solid #000;
-}
-
-.footer-buttons>a {
+.footer-buttons__facebook,
+.footer-buttons__twitter {
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center;
     flex-wrap: nowrap;
     padding: 1px 80px;
@@ -150,16 +153,17 @@ figcaption {
     color: #000;
     text-decoration: none;
     text-align: center;
-    border-left: 1px solid #e8e8e8;
+    border: 1px solid #e8e8e8;
 }
 
-.footer-buttons__facebook,
-.footer-buttons__twitter {
-    text-align: center;
+.footer-buttons__facebook:hover,
+.footer-buttons__twitter:hover {
+    color: blue;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 8%);
 }
 
-.footer-buttons__facebook {
-    padding-right: 100px;
+.img-svg path:hover {
+    fill: darkgreen;
 }
 
 .article-text__hr-dotted {
@@ -168,6 +172,17 @@ figcaption {
     height: 0;
     border: none;
     border-top: 2px dotted #ddd;
+}
+
+.article-text__tag1,
+.article-text__tag2 {
+    color: #000;
+    text-decoration: underline;
+}
+
+.article-text__tag1:hover,
+.article-text__tag2:hover {
+    text-decoration: none;
 }
 
 
@@ -196,7 +211,6 @@ figcaption {
 
 .title:before {
     margin-left: -100%;
-    left: -14px;
 }
 
 .title:after {
@@ -218,6 +232,7 @@ figcaption {
 
 .read-next__icons {
     text-align: center;
+    text-decoration: none;
 }
 
 .read-next__icons>a {
@@ -231,9 +246,12 @@ figcaption {
 }
 
 .read-next__img:hover {
-    border-radius: 10px;
-    border-color: #333;
-    box-shadow: 5px 5px 5px black;
+    transform: scale(1.005);
+}
+
+.read-next__icons:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    text-decoration: underline rgb(0, 0, 0);
 }
 
 .read-next__heading {
@@ -259,7 +277,8 @@ figcaption {
     border-top: 8px solid black;
 }
 
-.newsletter__text>h3 {
+.newsletter__text>h2 {
+    margin-top: 50px;
     font-size: 36px;
     font-family: 'New York Extra Large';
     font-weight: bold;
@@ -269,9 +288,8 @@ figcaption {
 .newsletter__text>p {
     font-size: 20px;
     font-family: 'FontsFree-Net-SFProText-Medium';
-    font-weight: 100;
-    padding: 0 10%;
-    margin-top: -20px;
+    padding: 0 7%;
+    margin-top: -10px;
     margin-bottom: 30px;
 }
 

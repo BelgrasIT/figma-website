@@ -6,7 +6,6 @@
 @import url('http://fonts.cdnfonts.com/css/sregs-serif-display');
 @import url('');
 @import url('http://fonts.cdnfonts.com/css/segoe-pro');
-@import url('http://fonts.cdnfonts.com/css/sf-mono');
 @import url('http://fonts.cdnfonts.com/css/nokia-cellphone-fc');
 @font-face {
     font-family: 'Chapter-Regular';
@@ -16,7 +15,7 @@
 
 @font-face {
     font-family: 'New York Extra Large';
-    src: url('./../fonts/FontsFree-Net-NewYorkExtraLargeRegular.ttf');
+    src: url('./../fonts/FontsFree-Net-NewYorkLargeMedium.ttf');
     font-display: swap;
 }
 
@@ -47,5 +46,11 @@
 @font-face {
     font-family: 'New York Medium';
     src: url('./../fonts/FontsFree-Net-NewYorkLargeMedium.ttf');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SF Mono';
+    src: url('./../fonts/FontsFree-Net-SFMono-Light.ttf');
     font-display: swap;
 }

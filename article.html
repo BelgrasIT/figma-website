@@ -18,16 +18,16 @@
         </label>
         <ul class="header__menu">
             <li>
-                <a href="./blog.html" class="header__link">Blog</a>
+                <a href="./index.html" class="header__link">Blog</a>
             </li>
             <li>
-                <a href="./index.html" class="header__link ">About</a>
+                <a href="./about.html" class="header__link " target="_blank">About</a>
             </li>
             <li>
-                <a href="links.html" class="header__link header__link_active">Links</a>
+                <a href="./article.html" class="header__link header__link_active">Links</a>
             </li>
             <li>
-                <a href="projects.html" class="header__link">Projects</a>
+                <a href="#" class="header__link">Projects</a>
             </li>
         </ul>
     </header>
@@ -80,8 +80,12 @@
             <div class="article-text__list">
                 <p>A list looks like this:</p>
                 <ul>
-                    <li>First item in the list </li>
-                    <li>Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</li>
+                    <li>
+                        <p>First item in the list </p>
+                    </li>
+                    <li>
+                        <p>Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</p>
+                    </li>
                     <li>Third item in the list</li>
                 </ul>
             </div>
@@ -89,19 +93,19 @@
             <p>Thanks for reading, <br>Mika</p>
         </div>
         <div class="article-text__gallery-text">
-            <div class="article-text__footer">
-                <div class="footer-buttons">
-                    <a class="footer-buttons__facebook" href="#"><img src="./assets/img/logo-facebook.png" alt="logo-facebook" width="30" height="30">
-                        <p>Share on Facebook</p>
-                    </a>
-                    <a class="footer-buttons__twitter" href="#"><img src="./assets/img/logo-twitter.png" alt="logo-twitter" width="30" height="30">
-                        <p>Share on Twitter</p>
-                    </a>
-                </div>
-            </div>
+
+            <a class="footer-buttons__facebook" href="#">
+                <svg class="img-svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 12.067C0 18.0335 4.33333 22.9944 10 24V15.3333H7V12H10V9.33332C10 6.33332 11.9333 4.66666 14.6667 4.66666C15.5333 4.66666 16.4667 4.79999 17.3333 4.93332V7.99999H15.8C14.3333 7.99999 14 8.73332 14 9.66666V12H17.2L16.6667 15.3333H14V24C19.6667 22.9944 24 18.0335 24 12.067C24 5.43017 18.6 0 12 0C5.4 0 0 5.43017 0 12.067Z" fill="black"/>
+</svg>
+                <span>Share on Facebook</span>
+            </a>
+            <a class="footer-buttons__twitter" href="#"><img src="./assets/img/twitter-svgrepo-com.svg" alt="logo-twitter" width="20" height="20">
+                <p>Share on Twitter</p>
+            </a>
         </div>
         <div class="article-text__gallery-text">
-            <p>Tags:<ins>product design, culture</ins></p>
+            <p>Tags: <a class="article-text__tag1" href="./index.html">product design,</a> <a class="article-text__tag2" href="./index.html">culture</a></p>
         </div>
         <hr class="article-text__hr-dotted">
         <div class="blog-main-center__article-header">
@@ -111,7 +115,7 @@
     </main>
     <div class="title">
         <span>
-        <img src="./assets/img/eyes.png" alt="eyes" height="60" width="60">
+        <img src="./assets/img/Group 10.svg" alt="eyes" height="60" width="60">
         </span>
     </div>
     <div class="blog-main__icons">
@@ -119,46 +123,33 @@
     </div>
     <main class="other-articles">
         <div class="other-articles__read-next">
-            <div class=" read-next__icons">
-                <a href="#"><img class=" read-next__img" src="./assets/img/spins-in-the-gallery.png" alt="spins-in-the-gallery">
-                    <p class=" read-next__heading">Connecting artificial intelligence with digital product design</p>
-                </a>
-            </div>
-            <div class=" read-next__icons">
-                <a href="#"><img class=" read-next__img" src="./assets/img/face-on-orange-background.png" alt="face-on-orange-background">
-                    <p class=" read-next__heading">Hello world, or, in other words, why this blog exists</p>
-                </a>
-            </div>
-            <div class=" read-next__icons">
-                <a href="#"><img class=" read-next__img" src="./assets/img/pink-face-on-black-background.png" alt="pink-face-on-black-background">
-                    <p class=" read-next__heading">Here are some things you should know regarding how we work</p>
-                </a>
-
-            </div>
-            <div class=" read-next__icons">
-                <a href="#"><img class=" read-next__img" src="./assets/img/red-symbol-no-blue-background.png" alt="red-symbol-no-blue-background">
-                    <p class=" read-next__heading">A few words about this blog platform, Ghost, and how this site was made</p>
-                </a>
-            </div>
-            <div class=" read-next__icons">
-                <a href="#"><img class=" read-next__img" src="./assets/img/crossword.png" alt="crossword">
-                    <p class=" read-next__heading">Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
-                </a>
-            </div>
-            <div class=" read-next__icons">
-                <a href="#"><img class=" read-next__img" src="./assets/img/red-beam-on-pink-background.png" alt="red-beam-on-pink-background">
-                    <p class=" read-next__heading">How modern remote working tools get along with Old School Cowboy's methods</p>
-                </a>
-            </div>
+            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/spins-in-the-gallery.png" alt="spins-in-the-gallery">
+                <p class=" read-next__heading">Connecting artificial intelligence with digital product design</p>
+            </a>
+            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/face-on-orange-background.png" alt="face-on-orange-background">
+                <p class=" read-next__heading">Hello world, or, in other words, why this blog exists</p>
+            </a>
+            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/pink-face-on-black-background.png" alt="pink-face-on-black-background">
+                <p class=" read-next__heading">Here are some things you should know regarding how we work</p>
+            </a>
+            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/red-symbol-no-blue-background.png" alt="red-symbol-no-blue-background">
+                <p class=" read-next__heading">A few words about this blog platform, Ghost, and how this site was made</p>
+            </a>
+            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/crossword.png" alt="crossword">
+                <p class=" read-next__heading">Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
+            </a>
+            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/red-beam-on-pink-background.png" alt="red-beam-on-pink-background">
+                <p class=" read-next__heading">How modern remote working tools get along with Old School Cowboy's methods</p>
+            </a>
         </div>
     </main>
     <div class="newsletter">
         <div class="newsletter__text">
-            <h3>Sign up for the newsletter</h3>
+            <h2>Sign up for the newsletter</h2>
             <p>If you want relevant updates occasionally, sign up for the private newsletter. Your email is never shared.</p>
         </div>
         <div class="newsletter__registration">
-            <input type="email" placeholder="Enter your email...">
+            <input type="email" placeholder="Enter your email..." autocomplete="false">
             <button type="submit">SING UP</button>
         </div>
     </div>
@@ -194,6 +185,9 @@
             <span>All rights reserved.</span>
         </div>
     </footer>
+    <script src="./assets/js/index.js">
+    </script>
+
 </body>
 
 </html>

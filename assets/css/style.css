@@ -146,13 +146,14 @@
         font-size: 54px;
         font-weight: bold;
         text-align: center;
-        margin: 1% 17% 4% 17%;
+        margin: 2% 17% 4% 17%;
     }
     
     .blog-main__icons>h5 {
         font-family: 'SF Mono';
-        padding: 0 33%;
+        padding: 0 33% 30px;
         text-align: center;
+        line-height: 180%;
     }
     
     .blog-main__icons>hr {
@@ -184,6 +185,10 @@
         width: 304px;
         height: 176px;
         object-fit: cover;
+    }
+    
+    .all-articles__img:hover {
+        transform: scale(1.005);
     }
     
     .all-articles__heading {
@@ -252,6 +257,10 @@
         text-decoration: underline;
         font-size: 15px;
         font-family: 'SF Pro Text', sans-serif;
+    }
+    
+    .footer__contact:hover {
+        text-decoration: none;
     }
     
     .footer__copyrights {
