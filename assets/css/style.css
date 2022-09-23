@@ -221,7 +221,11 @@
         text-transform: uppercase;
     }
     
-    .footer__marquee:nth-child(odd) {
+    .footer__marquee span {
+        font-weight: 300;
+    }
+    
+    .footer__marquee span:nth-child(odd) {
         font-weight: 800;
     }
     
@@ -238,13 +242,13 @@
     }
     
     .footer__text {
+        margin-top: -40px;
         width: 480px;
         text-align: center;
         font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        font-family: 'New York Small', sans-serif;
-        line-height: 140%;
+        font-weight: 100;
+        font-family: 'New York Small';
+        line-height: 160%;
     }
     
     .footer__contact {

@@ -60,3 +60,9 @@
     src: url('./../fonts/FontsFree-Net-SFProDisplay-Medium.ttf');
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Neurial Grotesk Bold';
+    src: url('./../fonts/Neurial-Grotesk-Bold.ttf');
+    font-display: swap;
+}
