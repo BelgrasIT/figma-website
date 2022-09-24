@@ -171,15 +171,21 @@
         margin: 0 21%;
         color: #000;
     }
+    /*----------------------------------*/
+    
+    .all-articles__icons:hover img {
+        transform: scale(1.010);
+        transition: 0.3s;
+    }
+    
+    .all-articles__icons:hover p {
+        color: rgb(1, 165, 28);
+        transition: 0.3s;
+    }
+    /*------------------------------------*/
     
     .all-articles__icons {
         text-decoration: none;
-    }
-    
-    .all-articles__img:hover,
-    .all-articles__heading:hover {
-        transform: scale(1.005);
-        color: rgb(1, 165, 28);
     }
     
     .all-articles__img {

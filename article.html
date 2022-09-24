@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Links</title>
+    <!-- our project just needs Font Awesome Solid + Brands -->
+    <link href="/assets/vendor/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/vendor/fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/assets/vendor/fontawesome/css/solid.css" rel="stylesheet">
 </head>
 
 <body>
@@ -50,14 +54,14 @@
                 <br>
                 <time class="blog-main__recording-day">Apr 15, 2020 · 4 min read</time>
             </p>
-
-            <button class="blog-main__button-facebook">
-                
-                <a href="#"><img src="./assets/img/logo-facebook.png" alt="logo-facebook" width="20" height="20" ></a>
-            </button>
-            <button class="blog-main__button-twitter">
-                <a href="#"><img src="./assets/img/logo-twitter.png" alt="logo-twitter" width="20" height="20"></a>
-            </button>
+            <div class="blog-main__buttons">
+                <a class="footer-buttons-mini" href="#">
+                    <i class="fa-brands fa-facebook fa-lg"></i>
+                </a>
+                <a class="footer-buttons-mini" href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
         </div>
     </main>
     <main class="article-text">
@@ -96,15 +100,12 @@
             <p>Thanks for reading, <br>Mika</p>
         </div>
         <div class="article-text__gallery-text">
-
-            <a class="footer-buttons__facebook" href="#">
-                <svg class="img-svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 12.067C0 18.0335 4.33333 22.9944 10 24V15.3333H7V12H10V9.33332C10 6.33332 11.9333 4.66666 14.6667 4.66666C15.5333 4.66666 16.4667 4.79999 17.3333 4.93332V7.99999H15.8C14.3333 7.99999 14 8.73332 14 9.66666V12H17.2L16.6667 15.3333H14V24C19.6667 22.9944 24 18.0335 24 12.067C24 5.43017 18.6 0 12 0C5.4 0 0 5.43017 0 12.067Z" fill="black"/>
-</svg>
+            <a class="footer-buttons" href="#">
+                <i class="fa-brands fa-facebook fa-lg"></i>
                 <span>Share on Facebook</span>
             </a>
-            <a class="footer-buttons__twitter" href="#"><img src="./assets/img/twitter-svgrepo-com.svg" alt="logo-twitter" width="20" height="20">
-                <p>Share on Twitter</p>
+            <a class="footer-buttons" href="#"><i class="fa-brands fa-twitter"></i>
+                <span>Share on Twitter</span>   
             </a>
         </div>
         <div class="article-text__gallery-text">
@@ -128,24 +129,42 @@
     </div>
     <main class="other-articles">
         <div class="other-articles__read-next">
-            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/spins-in-the-gallery.png" alt="spins-in-the-gallery">
-                <p class=" read-next__heading">Connecting artificial intelligence with digital product design</p>
+
+            <a href="./article.html" class="all-articles__icons">
+                <img class="all-articles__img" src="./assets/img/spins-in-the-gallery.png" alt="spins-in-the-gallery">
+                <p class="all-articles__heading">Connecting artificial intelligence with digital product design</p>
             </a>
-            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/face-on-orange-background.png" alt="face-on-orange-background">
-                <p class=" read-next__heading">Hello world, or, in other words, why this blog exists</p>
+
+
+            <a href="./article.html" class="all-articles__icons">
+                <img class="all-articles__img" src="./assets/img/face-on-orange-background.png" alt="face-on-orange-background">
+                <p class="all-articles__heading">Hello world, or, in other words, why this blog exists</p>
             </a>
-            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/pink-face-on-black-background.png" alt="pink-face-on-black-background">
-                <p class=" read-next__heading">Here are some things you should know regarding how we work</p>
+
+
+            <a href="./article.html" class="all-articles__icons">
+                <img class="all-articles__img" src="./assets/img/pink-face-on-black-background.png" alt="pink-face-on-black-background">
+                <p class="all-articles__heading">Here are some things you should know regarding how we work</p>
             </a>
-            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/red-symbol-no-blue-background.png" alt="red-symbol-no-blue-background">
-                <p class=" read-next__heading">A few words about this blog platform, Ghost, and how this site was made</p>
+
+
+            <a href="./article.html" class="all-articles__icons">
+                <img class="all-articles__img" src="./assets/img/red-symbol-no-blue-background.png" alt="red-symbol-no-blue-background">
+                <p class="all-articles__heading">A few words about this blog platform, Ghost, and how this site was made</p>
             </a>
-            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/crossword.png" alt="crossword">
-                <p class=" read-next__heading">Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
+
+
+            <a href="./article.html" class="all-articles__icons">
+                <img class="all-articles__img" src="./assets/img/crossword.png" alt="crossword">
+                <p class="all-articles__heading">Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
             </a>
-            <a href="./article.html" class=" read-next__icons"><img class=" read-next__img" src="./assets/img/red-beam-on-pink-background.png" alt="red-beam-on-pink-background">
-                <p class=" read-next__heading">How modern remote working tools get along with Old School Cowboy's methods</p>
+
+
+            <a href="./article.html" class="all-articles__icons">
+                <img class="all-articles__img" src="./assets/img/red-beam-on-pink-background.png" alt="red-beam-on-pink-background">
+                <p class="all-articles__heading">How modern remote working tools get along with Old School Cowboy's methods</p>
             </a>
+
         </div>
     </main>
     <div class="newsletter">
