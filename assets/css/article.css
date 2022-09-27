@@ -7,7 +7,7 @@ img {
 
 /* ---------------------------------------------- blog-main__icons styles ----------------------------------------------*/
 
-.blog-main__hr>hr {
+.blog-main__hr hr {
     margin: 20px 32% 0;
     background-color: rgb(0, 0, 0);
     height: 3px;
