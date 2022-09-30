@@ -22,7 +22,8 @@ img {
 
 .blog-main__article-header-logo {
     border-radius: 50px;
-    margin-top: 20px;
+    float: left;
+    margin: 10px 10px 10px 0;
 }
 
 .blog-main__article-header-cont {
@@ -176,8 +177,6 @@ img {
     line-height: 160%;
     flex-wrap: nowrap;
     border-top: 1px dashed #bbb;
-    float: left;
-    margin: 0 10px 10px 0;
 }
 
 .more-articles {
