@@ -16,6 +16,10 @@
     }
     /* ---------------------------------------------- header styles ----------------------------------------------*/
     
+    header {
+        margin-bottom: 80px;
+    }
+    
     .header {
         display: flex;
         align-items: center;
@@ -137,7 +141,6 @@
     
     .blog-main__icons {
         max-width: 854px;
-        padding-top: 80px;
         text-align: justify;
         display: flex;
         flex-direction: column;
