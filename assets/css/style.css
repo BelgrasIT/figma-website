@@ -366,4 +366,14 @@
         .footer__logo {
             width: auto;
         }
+        .header {
+            flex-wrap: wrap;
+            margin-top: 20px;
+            flex: auto;
+            padding-bottom: 20px;
+        }
+        .header__hamburger-container {
+            justify-content: center;
+            flex: auto;
+        }
     }
